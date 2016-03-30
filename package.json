@@ -6,7 +6,9 @@
   "scripts": {
     "predev": "gulp build",
     "dev": "gulp watch",
-    "test": "coffee test/core.coffee"
+    "test": "coffee test/core.coffee",
+    "preversion": "rm -rf dist && gulp build",
+    "version": "sh tools/deploy.sh"
   },
   "author": "Gerald <i@gerald.top>",
   "license": "MIT",
@@ -14,5 +16,17 @@
     "gulp": "^3.9.1",
     "gulp-coffee": "^2.3.1",
     "gulp-concat": "^2.6.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intellilab/24p.git"
+  },
+  "bugs": {
+    "url": "https://github.com/intellilab/24p/issues"
+  },
+  "homepage": "https://github.com/intellilab/24p#readme"
 }
