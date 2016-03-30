@@ -1,0 +1,29 @@
+body {
+  max-width: 800px;
+  margin: 1em auto;
+}
+
+#main,
+h1 {
+  text-align: center;
+}
+
+input[type=tel] {
+  width: 2em;
+}
+
+.result {
+  float: left;
+  width: 15em;
+  padding: .5em;
+}
+
+.result-num {
+  display: inline-block;
+  width: 2em;
+  color: #999;
+}
+
+.result-val {
+  color: #999;
+}

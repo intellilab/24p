@@ -1,0 +1,18 @@
+{
+  "name": "24p",
+  "version": "0.0.0",
+  "description": "24 points game",
+  "main": "index.js",
+  "scripts": {
+    "predev": "gulp build",
+    "dev": "gulp watch",
+    "test": "coffee test/core.coffee"
+  },
+  "author": "Gerald <i@gerald.top>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.1",
+    "gulp-concat": "^2.6.0"
+  }
+}
