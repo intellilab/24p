@@ -50,7 +50,7 @@ class TwentyFourPoints
   ]
 
   validate: (numbers) ->
-    if numbers.length is not 4
+    if numbers.length isnt 4
       throw 'Invalid input numbers!'
     numbers.forEach (input) ->
       number = ~~ input || 0
