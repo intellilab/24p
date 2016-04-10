@@ -7,7 +7,6 @@
     "predev": "gulp build",
     "dev": "gulp watch",
     "test": "coffee test/core.coffee",
-    "preversion": "rm -rf dist && gulp build",
     "version": "sh tools/deploy.sh"
   },
   "author": "Gerald <i@gerald.top>",
